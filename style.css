@@ -245,3 +245,74 @@ section {
         background: white;
     }
 }
+
+/* ---- ANIMATIONS ---- */
+.fade-in {
+    animation: fade-in 2s;
+    -webkit-animation: fade-in 2s;
+    -moz-animation: fade-in 2s;
+    -o-animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.color-change {
+    animation: color-change 4s linear infinite;
+    -webkit-animation: color-change 4s linear infinite;
+    -moz-animation: color-change 4s linear infinite;
+    -o-animation: color-change 4s linear infinite;
+}
+
+@keyframes color-change {
+    0% {background: black;}
+    50% {background: red;}
+    100% {background: black;}
+}
+
+@-webkit-keyframes color-change {
+    0% {background: black;}
+    50% {background: red;}
+    100% {background: black;}
+}
+
+@-moz-keyframes color-change {
+    0% {background: black;}
+    50% {background: red;}
+    100% {background: black;}
+}
+
+@-o-keyframes color-change {
+    0% {background: black;}
+    50% {background: red;}
+    100% {background: black;}
+}
+
+.boink {
+    animation: boink 1s linear infinite;
+}
+
+@keyframes boink {
+    0%, 10% {transform: rotateZ(0);}
+    20% {transform: rotateZ(-24deg);}
+    55% {transform: rotateZ(16deg);}
+    70% {transform: rotateZ(-4deg);}
+    90%, 100% {transform: rotateZ(0);}
+  }
