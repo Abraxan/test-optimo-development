@@ -95,6 +95,12 @@ section {
     margin-left: 1vw;
 }
 
+.column-equal-circle::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .column-equal {
     width: 25vw;
     height: 20vmin;
@@ -176,8 +182,18 @@ section {
         flex-flow: column;
     }
 
+    #col-box {order: 3;}
+
+    #col-eq-c {order: 2;}
+
     .column-rhombus,
     .column-equal-circle,
+    .column-box {
+        width: 50%;
+        margin-left: 20vw;
+        margin-right: auto;
+    }
+
     .column-box {
         height: 35vh;
     }
@@ -193,12 +209,32 @@ section {
         border: 7px solid black;
     }
 
+    #col-box {order: 3;}
+
+    #col-eq-c {order: 2;}
+
     .column-rhombus {
         width: 33%;
     }
 
+    .column-rhombus .row {
+        width: 15vmin;
+        height: 15vmin;
+    }
+
+    #top-rhombus {
+        transform: translateX(15vmin)rotate(45deg)translateX(6vmin);
+    }
+
     .column-equal-circle {
         width: 45%;
+        float: left;
+        padding-left: 4%;
+        margin-top: 6em;
+    }
+
+    .column-equal {
+        width: 33%;
     }
 
     .column-box {
