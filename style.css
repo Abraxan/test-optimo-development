@@ -66,6 +66,11 @@ section {
 }
 
 /* ---- COLUMNS ---- */
+#column {
+    width: 100%;
+    height: 90vh;
+}
+
 .column-rhombus {
     float: left;
     width: 50%;
@@ -73,14 +78,14 @@ section {
 }
 
 .column-rhombus .row{
-    width: 100px;
-    height: 100px;
+    width: 20vmin;
+    height: 20vmin;
 }
 
 .column-box {
     float: right;
-    width: 200px;
-    height: 400px;
+    width: 25%;
+    height: 95%;
     padding-right: 35px;
     margin-top: 3vh;
 }
@@ -91,8 +96,8 @@ section {
 }
 
 .column-equal {
-    width: 100px;
-    height: 50px;
+    width: 25vw;
+    height: 20vmin;
     float: left;
 }
 
@@ -104,8 +109,8 @@ section {
 }
 
 .column-circle {
-    width: 70px;
-    height: 50px;
+    width: 22vmin;
+    height: 19vmin;
     float: left;
     padding-left: 2vw;
 }
@@ -118,11 +123,11 @@ section {
     max-height: 100%;
     background: red;
     border: 2px solid black;
-    transform: rotate(45deg)translateX(40px);
+    transform: rotate(45deg)translateX(6vmin);
 }
 
 #top-rhombus {
-    transform: translateX(100px)rotate(45deg)translateX(40px);
+    transform: translateX(20vmin)rotate(45deg)translateX(6vmin);
 }
 
 .text-box{
