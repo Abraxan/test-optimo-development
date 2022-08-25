@@ -54,3 +54,9 @@ body {
     background: rgb(128, 128, 1);
     border: 6px solid black;
 }
+
+/* ---- SECTION ---- */
+section {
+    margin-top: 2em;
+    height: 90vh;
+}
